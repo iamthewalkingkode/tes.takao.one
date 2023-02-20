@@ -1,0 +1,24 @@
+.ant-steps-vertical>.ant-steps-item .ant-steps-item-content {
+    min-height: 70px !important;
+}
+
+.ant-modal-title {
+    text-align: center;
+}
+
+.ant-layout-siders {
+    background: $primary !important;
+}
+
+.ant-tabs-nav {
+    background-color: #fff;
+    padding: 5px 15px;
+}
+
+.ant-select-dropdown {
+    z-index: 9999;
+}
+
+.ant-switch {
+    background-color: rgb(118, 116, 116);
+}

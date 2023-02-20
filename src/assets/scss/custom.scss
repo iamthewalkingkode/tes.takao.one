@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import './variables.scss';
+@import './mui.scss';
+@import './antd.scss';
+
+body,
+html {
+    line-height: 1.5;
+    font-size: 13.8px;
+    font-family: "Assistant", sans-serif !important;
+    color: #57584e !important;
+}
+
+.small {
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.box-icon {
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.font-semibold,
+.font-bold {
+    color: rgba(#000, .8);
+}
+
+.border-spacing-2 {
+    --tw-border-spacing-x: 0px !important;
+}
+
+.nav-item {
+    display: block;
+    color: rgba(#fff, .7);
+
+    &:hover,
+    &.active {
+        color: rgba(#fff, 1);
+        background-color: rgba(#000, .13);
+    }
+
+    &.active {
+        color: $secondary;
+        font-weight: 500;
+    }
+}

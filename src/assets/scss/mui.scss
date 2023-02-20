@@ -1,0 +1,64 @@
+.MuiInputLabel-root {
+    font-family: "Oxygen", sans-serif !important;
+    font-weight: 300 !important;
+
+    &.MuiInputLabel-sizeSmall {
+        font-size: 14px !important;
+        line-height: 1.6em;
+    }
+}
+
+.MuiInputBase-root {
+    background-color: #fff;
+
+    input.MuiInputBase-inputSizeSmall {
+        height: 1.7375em !important;
+    }
+}
+
+.MuiInputBase-formControl,
+.MuiButton-root {
+    border-radius: 3px !important;
+}
+
+.MuiFormHelperText-root {
+    margin-left: 0px !important;
+}
+
+.MuiButton-root {
+    text-transform: none !important;
+
+    &.MuiButton-sizeLarge {
+        font-size: 17px !important;
+        padding: 10px 30px !important;
+    }
+
+    &.MuiButton-outlinedSuccesss {
+        color: $primary !important;
+        border-color: $primary !important;
+    }
+
+    &.MuiButton-outlinedSecondarys {
+        color: $secondary !important;
+        border-color: $secondary !important;
+    }
+}
+
+.MuiFormControl-root.zws fieldset legend {
+    width: 0px !important;
+}
+
+.MuiMenuItem-root,
+.MuiTypography-root {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.MuiButtonBase-root {
+    padding: 10px 16px !important;
+
+    &.MuiButton-sizeSmall {
+        padding: 6px 14px !important;
+    }
+}
