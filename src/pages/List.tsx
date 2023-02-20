@@ -25,7 +25,11 @@ const List = () => {
     const getData = async () => {
         setLoading(true);
         const res = await func.fetchAllOrders();
-        setData(func.chunk(res, 20)[0]);
+        setData(func.chunk(res.filter(item =>
+            (filters.type.length === 0 || filters.type.includes(item.type))
+            && (filters.item.length === 0 || filters.item.includes(item.item.id.toString()))
+            && (filters.order.length === 0 || filters.order.includes(item.id.toString()))
+        ), 20)[0]);
         setLoading(false);
     }
 
